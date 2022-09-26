@@ -1,5 +1,5 @@
 # Baropodometry
-  1.- Printed Circuit Board: Squematic, PCB design and 3D renders
+  1.- Printed Circuit Board: 3D renders
   2.- Microcontroller: Programming embedded system to acquire and visualize static plantar load distribution.
 
 Embedded System: MSP430-F5529 Launchpad
