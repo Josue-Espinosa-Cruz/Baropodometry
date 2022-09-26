@@ -1,0 +1,38 @@
+
+**** Build of configuration Debug for project Baropodometro ****
+
+"D:\\Programas\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Programas/ti/ccs930/ccs/tools/compiler/ti-cgt-msp430_18.12.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Programas/ti/ccs930/ccs/ccs_base/msp430/include" --include_path="D:/Universidad/Semestre6/Diseño Biomedico 1/Proyecto_Baropodómetro_V3/Programación_Microcontrolador/Baropodometro" --include_path="D:/Programas/ti/ccs930/ccs/tools/compiler/ti-cgt-msp430_18.12.4.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 99: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 113: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 127: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 141: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 153: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 168: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 183: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 199: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 215: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 220: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 224: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 213: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 218: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 221: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 374: remark #1538-D: (ULP 10.1) ISR TIMER0_A0_ISR calls function Selector_Mux. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 398: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../main.c"
+ 
+Building target: "Baropodometro.out"
+Invoking: MSP430 Linker
+"D:/Programas/ti/ccs930/ccs/tools/compiler/ti-cgt-msp430_18.12.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Baropodometro.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Programas/ti/ccs930/ccs/ccs_base/msp430/include" -i"D:/Programas/ti/ccs930/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Programas/ti/ccs930/ccs/tools/compiler/ti-cgt-msp430_18.12.4.LTS/lib" -i"D:/Programas/ti/ccs930/ccs/tools/compiler/ti-cgt-msp430_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Baropodometro_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Baropodometro.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Baropodometro.out"
+ 
+
+**** Build Finished ****
