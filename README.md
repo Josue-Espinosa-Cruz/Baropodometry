@@ -11,7 +11,7 @@
     General specifications: 25 MHz MCU with 128KB Flash, 8KB SRAM
     ~~~
 
-Features applied: 
+**Features applied:**
   1. GPIO pins
   2. Timer_A0
   3. 12-bit ADC
