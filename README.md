@@ -2,7 +2,12 @@
 
 1. **Printed Circuit Board:** 3D renders
     ~~~
+    Electronic CAD: Autodesk EAGLE
     Computer-Aided Design Software: Fusion360
+
+	1. Schematic Diagram
+	2. CAD Model
+	3. Renders
     ~~~
 2. **Microcontroller:** Programming embedded system to acquire and visualize static plantar load distribution.
     ~~~
@@ -16,6 +21,15 @@
   2. Timer_A0
   3. 12-bit ADC
   4. UART protocol
+  5. Interrupts
 
-![Diagram](./3_Diagrams/Electronic_Diagram.png)
-![PCB-render](https://user-images.githubusercontent.com/94022881/192397863-8e08679f-2bf0-4a70-a87b-30799453ab06.png)
+![BlockDiagram](./3_BlockDiagrams/Block_Diagram.png)
+![PCB](./1_PCB/3_Images/General.png)
+
+## Credits
+I would like to express special thanks to the following users on GrabCAD for their CAD models:
+	1.Female Headers By DL2DW - Dirk Wouters
+	2.Jumpler By DL2DW - Dirk Wouters
+	3.Male Headers By - Vahagn Zargaryan
+	4.Mini USB By [Unknown]
+	4.
