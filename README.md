@@ -17,5 +17,5 @@
   3. 12-bit ADC
   4. UART protocol
 
-
+![Diagram](./3_Diagrams/Electronic_Diagram.png)
 ![PCB-render](https://user-images.githubusercontent.com/94022881/192397863-8e08679f-2bf0-4a70-a87b-30799453ab06.png)
