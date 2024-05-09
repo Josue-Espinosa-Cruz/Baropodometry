@@ -28,8 +28,8 @@
 
 ## Credits
 I would like to express special thanks to the following users on GrabCAD for their CAD models:
-	1.Female Headers By DL2DW - Dirk Wouters
-	2.Jumpler By DL2DW - Dirk Wouters
-	3.Male Headers By - Vahagn Zargaryan
-	4.Mini USB By [Unknown]
-	4.
+
+  1. Female Headers By DL2DW - Dirk Wouters
+  2. Jumpler By DL2DW - Dirk Wouters
+  3. Male Headers By - Vahagn Zargaryan
+  4. Mini USB By [Unknown]
